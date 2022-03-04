@@ -1,14 +1,13 @@
-# springboot-api-rapid-development-templates
-### 简介
+# rapid-development-templates
 
+### 简介
+基于spring boot的接口快速开发模板
 
 ### 开发环境
-
 Java 11 MySQL 8.0 maven<br>
 兼容Java 8 MySQL 5.5 <br>
 
 ### 技术栈
-
 1. springboot 2.6.2 <br>
    https://spring.io/projects/spring-boot
 2. springfox-boot-starter 3.0.0 开源的API Doc的框架<br>
@@ -45,7 +44,6 @@ Java 11 MySQL 8.0 maven<br>
    "object": "请hander附带正确token"
 }
 ```
-
 
 ### 联系方式
 lushi78778@outlook.com

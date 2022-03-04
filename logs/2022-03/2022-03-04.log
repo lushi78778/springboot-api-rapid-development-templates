@@ -1,0 +1,21 @@
+
+
+2022-03-04 18:39:28.248  INFO 25392 --- [restartedMain] top.lushi787778.api.DemoApplication      : Starting DemoApplication using Java 11.0.12 on DESKTOP-JMVGM54 with PID 25392 (D:\lushi\code\java\springboot-api-rapid_development_templates\target\classes started by HP in D:\lushi\code\java\springboot-api-rapid_development_templates)
+2022-03-04 18:39:28.248  INFO 25392 --- [restartedMain] top.lushi787778.api.DemoApplication      : No active profile set, falling back to default profiles: default
+2022-03-04 18:39:28.283  INFO 25392 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-04 18:39:28.283  INFO 25392 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-04 18:39:29.140  INFO 25392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8950 (http)
+2022-03-04 18:39:29.148  INFO 25392 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8950"]
+2022-03-04 18:39:29.149  INFO 25392 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-04 18:39:29.149  INFO 25392 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-03-04 18:39:29.226  INFO 25392 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api-server]    : Initializing Spring embedded WebApplicationContext
+2022-03-04 18:39:29.227  INFO 25392 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 944 ms
+2022-03-04 18:39:29.560  INFO 25392 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-04 18:39:29.658  INFO 25392 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8950"]
+2022-03-04 18:39:29.670  INFO 25392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8950 (http) with context path '/api-server'
+2022-03-04 18:39:29.798  INFO 25392 --- [restartedMain] top.lushi787778.api.DemoApplication      : Started DemoApplication in 1.98 seconds (JVM running for 4.725)
+2022-03-04 18:39:41.065  INFO 25392 --- [http-nio-8950-exec-1] o.a.c.c.C.[.[localhost].[/api-server]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-04 18:39:41.066  INFO 25392 --- [http-nio-8950-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-04 18:39:41.068  INFO 25392 --- [http-nio-8950-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-03-04 18:39:41.133  INFO 25392 --- [http-nio-8950-exec-1] t.l.api.controller.UserController        : Result(code=200, token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzM4NCJ9.eyJ1c2VySW5mbyI6IndnZWh5dGplaHdlcnlydGhyIiwiaWF0IjoxNjQ2MzkwMTczLCJleHAiOjE2NDYzOTA3NzN9.SOKuLQ0NkV2lV3o4ix7v1BJknyuX-OE0cwJ2Rs8sPZVKZ7BDkIkg4qJCXpAWYmgE, request_id=b3ab82c4-f49a-46b4-8075-6df0ba428270, object=demo api)
+2022-03-04 18:39:46.363  INFO 25392 --- [http-nio-8950-exec-3] t.l.api.interceptor.Interceptor          : 8fa70565-5af1-425e-95cf-4ece4b1cd739用户未授权访问
